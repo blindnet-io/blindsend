@@ -1,6 +1,8 @@
 [submodule "blindsend-fe"]
 	path = blindsend-fe
 	url = https://github.com/blindnet-io/blindsend-fe
+	branch = dev
 [submodule "blindsend-be"]
 	path = blindsend-be
 	url = https://github.com/blindnet-io/blindsend-be
+	branch = dev
