@@ -16,6 +16,10 @@ To run blindsend, follow the instructions given in the [back-end](https://github
 
 An example of Java client for blindsend API is also available [here](https://github.com/blindnet-io/blindsend-examples-java).
 
+## Demo
+
+Blindsend demo is available at [https://blindsend.xyz/](https://blindsend.xyz/).
+
 ## Development
 
 Blindsend is currently under development by a small team of software engineers and independant cryptography experts. First release to follow soon.
