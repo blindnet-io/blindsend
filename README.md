@@ -6,7 +6,7 @@ Blindsend conists of two parts:
 1. [Back-end](https://github.com/blindnet-io/blindsend-be), which provides a REST API for managing file exchange workflows
 2. [Front-end](https://github.com/blindnet-io/blindsend-fe), which handles encryption and decryption of files on agents' local machines, and provides a UI to connect with a back-end.
 
-Blindsend is an open source tool and can be deployed as a SaaS application, or as a stand alone API to be used in external software projects. 
+Blindsend is an open source tool and can be deployed as a SaaS application, or as a stand alone API to be used in external software projects. An example of Java client for blindsend API is also available [here](https://github.com/blindnet-io/blindsend-examples-java).
 
 ## Installation
 
