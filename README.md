@@ -1,12 +1,8 @@
 # Blindsend
 
-Blindsend is an open source tool for private, end-to-end encrypted file exchange between two agents. Blindsend works with the following workflow:
-1. A file requesting party (which is also a file Receiver) provides a password to generate a file exchange link via blindsend
-2. The Receiver transmits the link to the file Sender
-3. The Sender uses the link to upload the file, which is first encrypted on Sender's local machine before it is uploaded to blindsend
-4. After successful upload, the Receiver uses the password and the same link to download the encrypted file. Once downloaded, the file is decrypted locally on Receiver's machine.
+Blindsend is an open source tool for private, end-to-end encrypted file exchange between two agents. Current use case requires a requesting party (file Receiver) to initiate the file exchange by generating a link via blindsend and transmiting that link to the file Sender; after the Sender uploads the file to blindsend, the Receiver is able to use the same link to download the file. 
 
-A demo is available at [https://blindsend.xyz](https://blindsend.xyz).
+When exchanging files via blindsend, encryption and decryption always take place on Sender's/Receiver's local machines. To learn more about blindsend and how it works, read our documentation [here](https://developer.blindnet.io/blindsend/). A demo is available at [https://blindsend.xyz](https://blindsend.xyz).
 
 Blindsend conists of two parts:
 1. [Server](https://github.com/blindnet-io/blindsend-be), which provides a REST API for managing file exchange workflows. It is designed in such a way that it can never decrypt exchanged files.
