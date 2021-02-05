@@ -4,9 +4,11 @@ Blindsend is an open source tool for private, end-to-end encrypted file exchange
 
 When exchanging files via blindsend, encryption and decryption always take place on Sender's/Receiver's local machines. To learn more about blindsend and how it works, read our documentation [here](https://developer.blindnet.io/blindsend/). A demo is available at [https://blindsend.xyz](https://blindsend.xyz).
 
-Blindsend conists of two parts:
+Blindsend conists of two main parts:
 1. [Server](https://github.com/blindnet-io/blindsend-be), which provides a REST API for managing file exchange workflows. It is designed in such a way that it can never decrypt exchanged files.
 2. [Web UI](https://github.com/blindnet-io/blindsend-fe), which handles encryption and decryption of files on agents' local machines, and provides a web client for the server.
+
+Appart from Server and Web UI, there is a separate [file retention service](https://github.com/blindnet-io/file-retention) in charge of file and link deletion.
 
 Blindsend is an open source tool and can be deployed as a SaaS application, or as an API to be used in external software projects. 
 
