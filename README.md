@@ -1,29 +1,21 @@
 # Blindsend
 
-Blindsend is an open source tool for private, end-to-end encrypted file exchange between two agents. Current use case requires a requesting party (file Receiver) to initiate the file exchange by generating a link via blindsend and transmiting that link to the file Sender; after the Sender uploads the file to blindsend, the Receiver is able to use the same link to download the file. 
+Blindsend is an open source tool for private, end-to-end encrypted file exchange between two agents. It supports two use cases:
+1. Uploading a file and obtaining a link for file download. In this case, file Sender initiates the file exchange and provides the download link to file Receiver.
+2. Requesting a file and obtaining a link which is transmited to the Sender to use for uploading the requested file. In this case, the Receiver initiates file exchange and provides the upload link to the Sender (think of a doctor, a Receiver, requesting a blood analysis results from a patient, the Sender). The same link is used by the Receiver to download the file.
 
-When exchanging files via blindsend, encryption and decryption always take place on Sender's/Receiver's local machines. To learn more about blindsend and how it works, read our documentation [here](https://developer.blindnet.io/blindsend/). A demo is available at [https://blindsend.xyz](https://blindsend.xyz).
+When exchanging files via blindsend, encryption and decryption always take place on Sender's/Receiver's local machines. A demo is available at [https://blindsend.io](https://blindsend.io).
 
-Blindsend conists of two main parts:
-1. [Server](https://github.com/blindnet-io/blindsend-be), which provides a REST API for managing file exchange workflows. It is designed in such a way that it can never decrypt exchanged files.
+Blindsend consists of two parts:
+1. [Server](https://github.com/blindnet-io/blindsend-server), which provides a REST API for managing file exchange workflows. It is designed in such a way that it can never decrypt exchanged files.
 2. [Web UI](https://github.com/blindnet-io/blindsend-fe), which handles encryption and decryption of files on agents' local machines, and provides a web client for the server.
 
-Appart from Server and Web UI, there is a separate [file retention service](https://github.com/blindnet-io/file-retention) in charge of file and link deletion.
-
-Blindsend is an open source tool and can be deployed as a SaaS application, or as an API to be used in external software projects. 
+Blindsend is an open source tool and can be deployed as a SaaS application. 
 
 ## Installation
 
-To run blindsend server, follow the instructions given in the [server](https://github.com/blindnet-io/blindsend-be/) project.  
+To run blindsend server, follow the instructions given in the [server](https://github.com/blindnet-io/blindsend-server) project.  
 If you want to add a web client, follow the instructions given in the [Web UI](https://github.com/blindnet-io/blindsend-fe/) project. 
-
-## What's coming next?
-
-We are currently working to include a new use case scenario in which file the Sender initiates the file exchange and sends the download link to the Receiver.
-
-## Blindsend clients
-
-An example of Java client library for blindsend is available [here](https://github.com/blindnet-io/blindsend-java-lib).
 
 ## Considerations
 
@@ -32,4 +24,4 @@ An example of Java client library for blindsend is available [here](https://gith
 
 ## Current status
 
-Blindsend is under development by a small team of software engineers at [blindnet.io](https://blindnet.io/) and several independant cryptography experts. First release to follow soon.
+Blindsend is under development by a small team of software engineers at [blindnet.io](https://blindnet.io/) and several independant cryptography experts.
