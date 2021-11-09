@@ -1,7 +1,6 @@
-[submodule "blindsend-fe"]
+[submodule "web-ui"]
 	path = blindsend-fe
-	url = https://github.com/blindnet-io/blindsend-fe
-	branch = new-design
-[submodule "blindsend-server"]
+	url = git@github.com:blindnet-io/blindsend-fe.git
+[submodule "server"]
 	path = blindsend-server
-	url = https://github.com/blindnet-io/blindsend-server
+	url = git@github.com:blindnet-io/blindsend-server.git
