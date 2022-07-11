@@ -86,11 +86,6 @@ Protocol diagrams are coming soon!
 
 blindsend is under development by a team of software engineers at [blindnet.io](https://blindnet.io) and several independent cryptography experts.
 
-## License
-
-blindsend has the MIT license. You can read this license in the [LICENSE](https://github.com/blindnet-io/blindsend/blob/develop/LICENSE) file.  
-You are free to deploy your own instances. Contact us if you need any help at _blindsend@blindnet.io_
-
 ## Community
 
 > All community participation is subject to blindnet’s [Code of Conduct][coc].
@@ -104,6 +99,7 @@ Stay up to date with new releases and projects, learn more about how to protect 
 ## License
 
 The blindsend-server is available under [MIT][license] (and [here](https://github.com/blindnet-io/openness-framework/blob/main/docs/decision-records/DR-0001-oss-license.md) is why).
+You are free to deploy your own instances. Contact us if you need any help at _blindsend@blindnet.io_
 
 <!-- project's URLs -->
 [new-issue]: https://github.com/blindnet-io/blindsend/issues/new/choose
