@@ -33,6 +33,8 @@ blindsend is an open source tool for private, [end-to-end encrypted](https://en.
 
 It supports two use cases - [sharing files](https://github.com/blindnet-io/blindsend#sharing-files) and [requesting files](https://github.com/blindnet-io/blindsend#requesting-files).  
 
+You can find the protocol description in the [protocol.pdf](./protocol.pdf) file.
+
 A demo can be found on https://blindsend.io.
 
 ## Sharing files
