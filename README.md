@@ -13,9 +13,6 @@
   <strong>End-to-end encrypted file sharing</strong>
 </p>
 
-<p align="center">
-  <a href="https://blindsend.io"><strong>blindsend.io</strong></a>
-</p>
 
 <p align="center">
   <a href="https://github.com/blindnet-io/blindsend-web-client">Web client</a>
